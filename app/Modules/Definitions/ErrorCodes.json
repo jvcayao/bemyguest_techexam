@@ -1,0 +1,74 @@
+[
+    {
+      "code": 1001,
+      "codeWord": "invalid_arguments",
+      "description": "Arguments /Parameters passed is not valid.",
+      "httpStatusCode": 422
+    },
+    {
+      "code": 1010,
+      "codeWord": "exception",
+      "description": "Exception error occurred.",
+      "httpStatusCode": 502
+    },  
+    {
+      "code": 1020,
+      "codeWord": "validation_failed",
+      "description": "Validation failed. Please double check entries.",
+      "httpStatusCode": 422
+    },
+    {
+      "code": 1201,
+      "codeWord": "authentication_failed",
+      "description": "Authentication failed.",
+      "httpStatusCode": 403
+    },
+    
+    {
+      "code": 1203,
+      "codeWord": "password_reset",
+      "description": "Account Password Reset",
+      "httpStatusCode": 401
+    },
+    {
+      "code": 1204,
+      "codeWord": "session_timeout",
+      "description": "Your Session has timed out. Please login to continue.",
+      "httpStatusCode": 408
+    },
+    {
+      "code": 1205,
+      "codeWord": "access_disabled",
+      "description": "Account access not activated."
+    },  
+    {
+      "code": 1211,
+      "codeWord": "unauthorized",
+      "description": "Unauthorized access. Please check your credentials.",
+      "httpStatusCode": 401
+    },
+    {
+      "code": 404,
+      "codeWord": "http_not_found",
+      "description": "HTTP Not Found. Unauthorized 404.",
+      "httpStatusCode": 404
+    },
+    {
+      "code": 429,
+      "codeWord": "too_many_attempts",
+      "description": "Too Many Requests",
+      "httpStatusCode": 429
+    },
+    {
+      "code": 503,
+      "codeWord": "maintenance_mode",
+      "description": "Service Unavailable 503.",
+      "httpStatusCode": 503
+    },
+    {
+      "code": 500,
+      "codeWord": "internal_error",
+      "description": "Internal Server Error 500.",
+      "httpStatusCode": 500
+    }
+  ]
