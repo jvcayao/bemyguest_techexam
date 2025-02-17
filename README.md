@@ -24,6 +24,11 @@ composer install
 
 php artisan migrate
 
+## Added Database Seeder
+
+php artisan db:seed
+
+
 ## After installation run php artisan serve for local deployment
 
 php artisan serve
