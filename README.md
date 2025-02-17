@@ -20,6 +20,10 @@ cp .env.example .env
 
 composer install
 
+## Migrate the tables using php artisan command
+
+php artisan migrate
+
 ## After installation run php artisan serve for local deployment
 
 php artisan serve
@@ -65,9 +69,6 @@ API endpoint using http://127.0.0.1:8000/api/convert?amount=1 using postman
 
 run php artisan test
 
-## Modification of bootstrap/app.php 
-
-Added exception to handle proper API error response and removing laravel default error
 
 
 
